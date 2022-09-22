@@ -15,16 +15,23 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	{{-- Google Material Icon --}}
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
 	{{-- Stylesheet --}}
 	<link rel="stylesheet" href="/css/angler.css">
 	@yield('title')
 </head>
 
 <body>
-	@yield('navbar')
-	<main>
-	@yield('contents')
-	</main>
+	<div class="d-flex container-fluid">
+		<div class="row">
+			<aside class="sidebar col-md-2">
+				@include('layouts.sidebar')
+			</aside>
+			<main class="col-md-10">
+			@yield('contents')
+			</main>
+		</div>
+	</div>
 </body>
-
 </html>

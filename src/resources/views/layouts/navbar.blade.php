@@ -1,6 +1,3 @@
-@include('layouts.master')
-
-
 <!-- As a heading -->
 <nav class="navbar bg-light">
   <div class="container-fluid">
