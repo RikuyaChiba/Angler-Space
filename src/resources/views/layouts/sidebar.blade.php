@@ -1,7 +1,7 @@
  <div class="top">
 	<div class="logo d-flex align-items-center">
 		<h4 class="me-3">Angler Space</h4>
-		<img src="/img/fish.png" class="sample" alt="logo icon">
+		<img src="/img/fish1.png" class="sample" alt="logo icon">
 	</div>
 </div>
  <div class="sidebar d-flex flex-column">
