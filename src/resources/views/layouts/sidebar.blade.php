@@ -9,7 +9,7 @@
 		<span class="material-symbols-sharp">water</span>
 		<h5>川を検索</h5>
 	</a>
-	<a href="#" class="sidebar__item">
+	<a href="{{ route('new_article') }}" class="sidebar__item">
 		<span class="material-symbols-sharp">edit_document</span>
 		<h5>記事を書く</h5>
 	</a>
